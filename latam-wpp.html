@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="chome my-auto">
+        <div class="container px-0 ">
+            <div class="row g-0">
+                <div class="col-5 col-lg-2 col-xl-2 col-xxl-2 mx-auto ms-0 me-0 form-1 pt-5">
+                    <img src="imagens/perfil.png" alt="" style="width: 150px;">
+                    <div class="pt-5">
+                        <div class="menu-container">
+                            <ul class="menu clearfix">
+                                <li><a href="#">CLientes</a>
+                                    <!-- Nível 1 -->
+                                    <!-- submenu -->
+                                    <ul class="sub-menu clearfix">
+                                        <li><a style="color: white;cursor: default;">P&G</a>
+                                            <!-- Nível 2 -->
+                                            <!-- submenu do submenu -->
+                                            <ul class="sub-menu">
+                                                <li><a style="color: white;cursor: default;">LATAM</a>
+                                                    <!-- Nível 3 -->
+                                                    <!-- submenu do submenu do submenu -->
+                                                    <ul class="sub-menu">
+                                                        <li><a href="latam-eap.html">Email</a></li>
+                                                        <li><a href="latam-wpp.html">WhatsApp</a></li>
+                                                    </ul><!-- submenu do submenu do submenu -->
+                                                </li>
+                                                <!--NEUROBION-->
+                                                <li><a style="color: white; cursor: default;">NEUROBION</a>
+                                                    <!-- Nível 3 -->
+                                                    <!-- submenu do submenu do submenu -->
+                                                    <ul class="sub-menu">
+                                                        <li><a href="neurobion-email.html">Email</a></li>
+                                                        <li><a href="neurobion-wpp.html">WhatsApp</a></li>
+                                                        <li><a href="#">VisualAid</a></li>
+                                                        <li><a href="#">LandingPage</a></li>
+                                                    </ul><!-- submenu do submenu do submenu -->
+                                                </li>
+                                                <!--FEMIBION-->
+                                                <li><a style="color: white;cursor: default;">FEMIBION</a>
+                                                    <!-- Nível 3 -->
+                                                    <!-- submenu do submenu do submenu -->
+                                                    <ul class="sub-menu">
+                                                        <li><a href="#">VisualAid</a></li>
+                                                        <li><a href="#">Email</a></li>
+                                                        <li><a href="#">LandingPage</a></li>
+                                                    </ul><!-- submenu do submenu do submenu -->
+                                                </li>
+                                            </ul><!-- submenu do submenu -->
+                                        </li>
+                                        <li><a style="color: white;cursor: default;">TAKEDA</a></li>
+                                        <li><a style="color: white;cursor: default;">CLUBENAOS</a></li>
+                                    </ul><!-- submenu -->
+                                </li>
+                                <li><a href="consultas.html">Consultar</a></li>
+                                <li><a href="index.html">Voltar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="h1-form pt-3 mt-5">
+                            <a href="">Logout -></a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-9 col-xl-9 col-xxl-9 mx-auto my-auto .meu w3-animate-zoom height">
+                    <div class="col-12 offset-lg-10 col-lg-2 offset-xl-10 col-xl-2 offset-xxl-10 col-xxl-2 d-flex">
+                        <div class="pt-3">
+                            <img src="imagens/Logo2.png" alt="" style="width: 97px;">
+                        </div>
+                    </div>
+                    <form action="#">
+                        <div class="col-12 col-lg-12 col-xl-12 col-xxl-12 mx-auto pt-4 d-flex justify-content-center">
+                            <div class="mb-5 pt-4">
+                                <div class="col-xxl-4 d-inline me-md-5">
+                                    <label for="nome"> Nome
+                                        <input class="d-block" type="text" name="nome" id="nome" required
+                                            placeholder="Insira sua resposta">
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline mx-md-5">
+                                    <label for="job"> Job
+                                        <input class="d-block" type="text" name="job" id="job" required
+                                            placeholder="Insira sua resposta">
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline ms-md-5">
+                                    <label for="job"> Data de Recebimento
+                                        <input class="d-block" type="date" name="data" required
+                                            placeholder="Insira sua resposta">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Second line-->
+                        <div class="col-12 col-lg-12 col-xl-12 col-xxl-12 mx-auto pt-4 d-flex justify-content-center">
+                            <div class="mb-5 pt-2">
+                                <div class="col-xxl-4 d-inline me-md-5">
+                                    <label for="pais"> Pais
+                                        <select class="pais d-block" name="pais" id="pais" required>
+                                            <option value="">Insira Sua Resposta</option>
+                                            <option>BR</option>
+                                            <option>CE</option>
+                                            <option>CL</option>
+                                            <option>CO</option>
+                                            <option>EC</option>
+                                            <option>MX</option>
+                                            <option>PE</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline mx-md-5">
+                                    <label for="conteudo"> Conteúdo
+                                        <input type="text" class="conteudo d-block" name="conteudo" name="conteudo"
+                                            placeholder="Insira Sua Resposta" id="conteudo" required>
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline ms-md-5">
+                                    <label for="p-chave"> Formato do Arquivo
+                                        <select class="p-chave d-block" name="p-chave" id="p-chave" required>
+                                            <option value="">Insira Sua Resposta</option>
+                                            <option>MP4</option>
+                                            <option>PDF</option>
+                                            <option>link-externo</option>
+                                            <option>JPG</option>
+                                            <option>sem-link</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Third-->
+                        <div class="col-12 col-lg-12 col-xl-12 col-xxl-12 mx-auto pt-4 d-flex justify-content-center">
+                            <div class="mb-5 pt-1">
+                                <div class="col-xxl-4 d-inline me-md-5">
+                                    <label for="campanha"> Campanha
+                                        <select class="campanha d-block" name="campanha" id="campanha" required>
+                                            <option value="">Insira sua resposta.</option>
+                                            <option>estudo-pesquisa</option>
+                                            <option>produto</option>
+                                            <option>estudo-doenca</option>
+                                            <option>sem-link</option>
+                                            <option>video-aula </option>
+                                            <option>institucional</option>
+                                            <option>evento</option>
+                                            <option>link-externo</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline mx-md-5">
+                                    <label class="margin-bottom-mobile" for="q-botoes"> Quantidade de botões
+                                        <select class="q-botoes d-block" name="q-botoes" id="q-botoes" required>
+                                            <option value="">Insira sua resposta.</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div class="col-xxl-4 d-inline ms-md-5">
+                                    <button type="button" id="button" name="data" class="bt-enviar" value="Enviar"
+                                        onclick="gerar(),enviado()">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="tit">
+
+                        </div>
+                        <div id="res" style="display:  none;">
+                            <input type="text" id="link-gerado" readonly disabled
+                                style="width: 100%; background-color:#a19d9d; margin-left: 10px; margin-bottom: 10px;">
+                            <br>
+                            <input type="text" id="link-gerado2" readonly disabled
+                                style="width: 100%; background-color:#a19d9d; margin-left: 10px; margin-bottom: 10px;">
+                            <input type="text" id="link-gerado3" readonly disabled
+                                style="width: 100%; background-color:#a19d9d; margin-left: 10px;">
+                        </div>
+                        <h3 style="font-size: 18px; color: rgb(0, 0, 0);" class="mt-5 title-bottom">LATAM WPP
+                            </h1>
+
+
+                            <!--IdTemplateVeeva-->
+                            <div class="d-none">
+                                <input class="IdTVeeva1" type="text" name="IdTVeeva1" id="IdTVeeva1" value="">
+                            </div>
+                            <!--IdTemplateVeeva2-->
+                            <div class="d-none">
+                                <input class="IdTVeeva2" type="text" name="IdTVeeva2" id="IdTVeeva2" value="">
+                            </div>
+                            <!--CTA-->
+                            <div class="d-none">
+                                <input class="CTA" type="text" name="CTA" id="CTA" value="">
+                            </div>
+                            <!--Cor Do Botao-->
+                            <div class="d-none">
+                                <input class="cbotao" type="text" name="cbotao" id="cbotao" value="">
+                            </div>
+                            <!--Posicao  Do Botao-->
+                            <div class="d-none">
+                                <input class="pbotao" type="text" name="pbotao" id="pbotao" value="">
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/links.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/datalist-css/dist/datalist-css.min.js"></script>
+</body>
+
+
+</html>
